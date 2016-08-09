@@ -1,10 +1,16 @@
 @charset "utf-8";
 @import "normalize";
 
+
+// Layout
 body {
   background: #fff;
   color: #000;
   font: 300 18px/1.5 "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section {
+  margin-bottom: 1.5rem;
 }
 
 .container {
@@ -12,6 +18,8 @@ body {
   max-width: 900px;
 }
 
+
+// Typography
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -29,6 +37,32 @@ a {
   color: blue;
 }
 
+
+// Examples & Code
+pre {
+  background: #f7f7f7;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  color: #555;
+  display: inline-block;
+  font-size: .9rem;
+  margin: 0;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  white-space: pre-line;
+}
+
+code {
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  color: #555;
+  display: inline-block;
+  font-size: .9rem;
+  padding: .2rem;
+}
+
+// Header
 header {
   margin-bottom: 1.5rem;
 }
