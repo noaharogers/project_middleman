@@ -1,6 +1,8 @@
 activate :relative_assets
 set :relative_links, true
 
+activate :syntax
+
 ###
 # Page options, layouts, aliases and proxies
 ###
